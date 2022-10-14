@@ -1,0 +1,48 @@
+:root {
+    --primario: #5227cc;
+    --primario_claro: #7749f8;
+    --secundario: #1c78fd;
+    --secundario_claro: #5298ff;
+    --voluntariado: #dc3545;
+    --donar: #FF9C07;
+    --reciclar: #28a745;
+    --llamados: #17a2b8;
+
+}
+
+* {
+    border: 1px solid red;
+}
+
+html {
+
+    font-size: 62.5%;
+    box-sizing: border-box;
+    /* PARA QUE CUANDO A UN ELEMENTO TENGA QUE TENER CIERTA MEDIDA EL PADDING NO LE AFECTE*/
+
+}
+
+body {
+    font-family: 'DM Sans', 'Montserrat' sans-serif;
+    font-size: 16px;
+    /* CAMBIANDO EL FONT SIZE DEL HTML Y EL BODY DE ESTA MANERA, GENERAMOS QUE 1REM = 10PX */
+}
+
+.title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+.news_1{
+    color: #fff;
+    background-color: var(--secundario_claro);
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ing_news {
+    width: 60%;
+}
