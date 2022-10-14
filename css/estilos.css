@@ -20,3 +20,72 @@ body{
 font-family: 'DM Sans', 'Montserrat' sans-serif;
     font-size: 16px; /* CAMBIANDO EL FONT SIZE DEL HTML Y EL BODY DE ESTA MANERA, GENERAMOS QUE 1REM = 10PX */
 }
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    height: 6rem;
+}
+.nav a{
+    text-decoration: none;
+}
+.navBar{
+    display: flex;
+    gap: 6rem;
+    list-style: none;
+    }
+    .list a{
+        color: #000000;
+    }
+.logo{
+    width: 18rem;
+    height: 4rem;
+
+    }
+    .contenedorNavBar{
+        display: flex;
+        gap: 10rem;
+        align-items: center;
+    }
+    .ancla{
+        background-color: var(--secundario);
+        padding: 0.7rem;
+        border-radius: 2rem;
+    }
+    .ancla a{
+      color: #ffffff;
+    }
+    
+   
+    .backImg{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/manos.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+    .titulo{
+        font-family: 'DM Sans';
+        font-weight: 400;
+        letter-spacing: -1px;
+        font-size: 5.5rem;
+
+    }
+    .tituloText{
+        font-family: 'DM Sans';
+        width: 80rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 2rem;
+        margin: 0;
+        color: rgba(256, 256, 256, 0.7);     
+    }
+
+
+
