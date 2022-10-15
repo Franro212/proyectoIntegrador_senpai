@@ -61,7 +61,6 @@ body {
   line-height: 60px;
   display: none;
 }
-
 .backImg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/manos.jpg);
@@ -141,3 +140,17 @@ body {
     font-size: 1rem;
   }
 }
+
+.news_1{
+            color: #fff;
+            background-color: var(--secundario_claro);
+        }
+        .detail{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .ing_news {
+            width: 60%;
+        }
