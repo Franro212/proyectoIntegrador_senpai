@@ -372,7 +372,86 @@ a {
    }
        
  }
+.secForm{
+  width: 100vw;
+  height: 70vh;
+  background-color: rgb(251, 246, 246);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+ .imgForm{
+  width: 60rem;
+  height: 30rem;
+ }
+ .containerForm{
+display: flex;
+flex-direction: column;
+width: 60rem;
+height: 30rem;
+align-items: center;
+ }
+.formulario{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.contCampo{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  height: 10rem;
+  width: 40rem;
+}
+.mensaje{
+  display:flex;
+  flex-direction: column; 
+  width: 50%;
+  height: 10rem
+  
+}
+.enviar{
+  text-align:center;
+  margin: 5rem;
+  background-color:var(--secundario);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  font-family:"DM Sans", "Montserrat"  ;
+}
+.border{
+  border-radius: 20px;
+  /* height: 20rem; */
+  text-decoration: none;
+}
+@media(max-width: 768px ) {
+  .secForm{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .imgForm{
+    width: 90%;
+    height: 30rem;
+   }
+   .formulario{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .mensaje{
+    width: 100%;
+  }
 
+      
+}
      
 
 
