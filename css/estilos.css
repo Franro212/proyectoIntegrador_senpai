@@ -95,6 +95,94 @@ body {
         margin: 0;
         color: rgba(256, 256, 256, 0.7);     
     }
+/*--cards y footer --*/
+.news_1 {
+    padding: 5%;
+    color: #fff;
+    background-color: var(--secundario_claro);
+}
+
+.cards {
+    padding: 5%;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ing_news {
+    width: 60%;
+}
+
+.img_1 {
+    width: 70px;
+    height: 70px;
+    padding-left: 20px;
+}
+
+.img_mas {
+    width: 12%;
+}
+
+.text_1 {
+    padding-top: 20px;
+    font-size: 2rem;
+
+    color: #fff;
+}
+
+.hand {
+    background-color: var(--voluntariado);
+    width: 200px;
+    height: 200px;
+    border-radius: 7%;
+}
+
+.hand2 {
+    background-color: var(--donar);
+    width: 200px;
+    height: 200px;
+    border-radius: 7%;
+}
+
+.recicly {
+    background-color: var(--reciclar);
+    width: 200px;
+    height: 200px;
+    border-radius: 7%;
+}
+
+.call {
+    background-color: var(--llamados);
+    width: 200px;
+    height: 200px;
+    border-radius: 7%;
+}
+
+.card-text {
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 20px;
+
+}
+
+.containerFooter {
+    background-color: var(--primario_claro);
+    color: #fff;
+    padding: 5%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.img2 {
+    width: 40%;
+    height: 40%;
+}
+
+
+
 
     @media (max-width: 600px) {
   
