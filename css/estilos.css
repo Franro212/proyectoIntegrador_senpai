@@ -359,6 +359,7 @@ a {
     flex-direction: column;
     gap: 10px;
     height: auto;
+    padding-bottom: 20px;
 
    
    }
