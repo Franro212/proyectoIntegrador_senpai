@@ -102,9 +102,6 @@ body {
     background-color: var(--secundario_claro);
 }
 
-.cards {
-    padding: 5%;
-}
 
 .detail {
     display: flex;
@@ -128,7 +125,7 @@ body {
 
 .text_1 {
     padding-top: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     color: #fff;
 }
@@ -182,7 +179,10 @@ body {
 .containerFooter {
     background-color: var(--primario_claro);
     color: #fff;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
