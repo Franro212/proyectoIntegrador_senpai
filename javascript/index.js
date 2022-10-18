@@ -1,3 +1,4 @@
+/*--NAV--*/
 const navBar = document.querySelector(".navBar")
 const botonNav = document.querySelector(".botonNav")
 function botn (){
@@ -6,6 +7,18 @@ function botn (){
 botonNav.addEventListener("click", botn
 );
 
+
+const botonNosotros = document.getElementById("btnNosotros");
+const botonNoticias = document.getElementById("btnNoticias");
+const botonAyuda = document.getElementById("btnAyuda");
+
+
+botonNosotros.addEventListener("click", botn
+);
+botonNoticias.addEventListener("click", botn
+);
+botonAyuda.addEventListener("click", botn
+);
 /*POPUP*/
 
 var modal = document.getElementById("myModal")
