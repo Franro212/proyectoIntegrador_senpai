@@ -443,19 +443,19 @@ a {
           align-items: center;
           flex-direction: column;
       }
+         .reverse{
+        flex-direction: column-reverse;
+      }
+      .news_1 h2{
+        font-weight: bold;
+      }
+      .ing_news{
+        width: 100%;
+        margin: 2rem 0;
+      }
       
     }
      
-@media (max-width: 768px) {
-       .container1{
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-    }}
-
 .secNoticias{
   width: 100%;
   height: 100vh;
