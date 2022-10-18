@@ -27,6 +27,7 @@ body {
   padding: 10px;
   background-color: var(--primario);
   font-size: 1.5rem;
+  color: #ffffff;
 }
    
       .modal {
@@ -628,7 +629,7 @@ width: 60rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-      height: 120vh;
+      height: auto;
    }
    .imgForm{
      margin-top: 2rem;
