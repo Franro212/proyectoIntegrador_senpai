@@ -432,7 +432,7 @@ a {
         text-align: center;
       }
       .tituloText {
-        width: 40rem;
+        width: 30rem;
         font-size: 1rem;
       }
         
@@ -549,6 +549,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+    gap:5rem;
  }
  .imgForm{
   width: 60rem;
@@ -557,7 +558,6 @@ a {
  .containerForm{
 display: flex;
 flex-direction: column;
-width: 60rem;
 height: 30rem;
 align-items: center;
  }
