@@ -25,7 +25,7 @@ body {
   width: 100px;
   border-radius: 25px;
   padding: 10px;
-  background-color: var(--secundario_claro);
+  background-color: var(--primario);
   font-size: 1.5rem;
 }
    
@@ -171,7 +171,7 @@ body {
 #testimonials{
    
   text-align: center;
-  background-color: var(--secundario);
+  background-color: var(--secundario_claro);
   color: #fff;
 }
 .testimonial-image{
@@ -296,9 +296,9 @@ body {
 }
 
 .img_1 {
-    width: 70px;
-    height: 70px;
-    padding-left: 20px;
+  width: 9rem;
+  height: 7rem;
+  padding-left: 20px;
 }
 
 .img_mas {
@@ -307,7 +307,7 @@ body {
 
 .text_1 {
     padding-top: 20px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 
     color: #fff;
 }
@@ -359,7 +359,7 @@ body {
 }
 
 .containerFooter {
-    background-color: var(--primario_claro);
+    background-color: var(--primario);
     color: #fff;
     padding-left: 5%;
     padding-right: 5%;
