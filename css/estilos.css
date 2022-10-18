@@ -161,6 +161,29 @@ body {
 /*PopoUP hasta aqui*/
 
 
+/*Carrusel*/
+
+
+#testimonials{
+   
+  text-align: center;
+  background-color: var(--secundario);
+  color: #fff;
+}
+.testimonial-image{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/*Hasta aqui*/
+
+
+
 
 
 
