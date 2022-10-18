@@ -27,3 +27,38 @@ btn.onclick = function () {
       }
     }
 /*-------*/
+
+// FORMULARIO
+
+let form = document.getElementById("my-form");
+    
+async function handleSubmit(event) {
+  event.preventDefault();
+  let status = document.getElementById("my-form-status");
+  let data = new FormData(event.target);
+  fetch(event.target.action, {
+    method: form.method,
+    body: data,
+    headers: {
+        'Accept': 'application/json'
+    }
+  }).then(response => {
+    if (response.ok) {
+      alert("Su mensaje fue enviado con exito")
+      form.reset()
+    } else {
+      response.json().then(data => {
+        if (Object.hasOwn(data, 'errors')) {
+          status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+        } else {
+          status.innerHTML = "Hay un problema en el envio de su mensaje"
+        }
+      })
+    }
+  }).catch(error => {
+    status.innerHTML = "Hay un problema en el envio de su mensaje"
+  });
+}
+form.addEventListener("submit", handleSubmit)
+
+/*-------*/
