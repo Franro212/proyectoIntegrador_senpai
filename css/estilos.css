@@ -51,19 +51,22 @@ body {
       flex-direction: row;
       margin: auto;
       border: 1px solid #888;
-      height: 250px;
-      width: 400px;
+      height: 270px;
+      width: 440px;
 
 
     }
     .atras{
       display: flex;
+      padding-top: 20px;  
       justify-content: space-around;
 
     }
     .contenido{
       display: flex;
       flex-wrap: nowrap;
+      padding-top: 0px;
+      gap: 3px;  
       flex-direction: column;
       align-items: center;
       padding: 15px;
@@ -102,7 +105,7 @@ body {
 
 
     .fondo {
-      height: 246px;
+      height: 270px;
       margin: 0px;
       padding: 0px;
     }
