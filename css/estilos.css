@@ -621,6 +621,7 @@ width: 60rem;
 @media(max-width: 768px ) {
   .containerForm{
     width: auto;
+      height: auto;
   }
   .secForm{
     display: flex;
