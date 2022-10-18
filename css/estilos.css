@@ -370,8 +370,8 @@ body {
 }
 
 .img2 {
-    width: 40%;
-    height: auto;
+    width: 50%;
+    height: 40%;
 }
 
 a {
@@ -628,7 +628,7 @@ width: 60rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-      height: 100vh;
+      height: 120vh;
    }
    .imgForm{
      margin-top: 2rem;
