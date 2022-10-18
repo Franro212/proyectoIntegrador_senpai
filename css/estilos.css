@@ -638,6 +638,7 @@ width: 60rem;
    .formulario{
     display: flex;
     flex-direction: column;
+    gap: 5rem;
     
   }
     .contCampo{
