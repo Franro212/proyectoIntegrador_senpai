@@ -1,514 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/9b59f714e2.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/9b59f714e2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header class="header">
-        <nav class="nav">
-            <div class="contenedorNavBar">
-
-                <img class="logo" src="img/logo.png" alt="logo">
-                <button class="botonNav"><i class="fa-solid fa-bars"></i></button>
-                <ul class="navBar navBar_visible">
-                    <li class="list"><a id="btnNosotros" href="#nosotros">Nosotros</a> </li>
-                    <li class="list"><a id="btnNoticias" href="#noticias">Noticias</a></li>
-                    <li class="list"><a id="btnAyuda" href="#ayuda">Ayuda</a></li>
-                </ul>
-            </div>
-            <div>
-                <!--class="ancla"-->
-                <!-- <a style="text-transform:uppercase" class="btn" href="#">ingresar</a> -->
-                <button class="btn_ing" id="myBtn">Ingresar</button>
-            </div>
-            <!--PopUP -->
-
-            <!-- Modal content -->
-            <div id="myModal" class="modal">
-                <div class="modal-content">
-                    <div class="left">
-                        <img class="fondo" src="img/imagen-modal.JPG" alt="" />
-                    </div>
-                    <div class="right">
-                        <div class="atras"><span>Volver atras</span> <span class="close">X</span></div>
-                        <div class="contenido">
-
-                            <div> <span>Registrar</span> </div>
-                            <div class="com_or">
-                                <div class="menu_1">
-                                    <img class="maletin" src="img/icono-maletin.png" alt="">
-                                </div>
-                                <div>
-                                    <span class="tit_1">Mi empresa</span>
-                                    <p class="det_tit">breve explicacion a lo que nos referimos</p>
-                                    <img class="flecha" src="img/icono-flecha.png" alt="">
-                                </div>
-                            </div>
-                            <div class="com_or">
-                                <div class="menu_2">
-                                    <img class="persona" src="img/icono-persona.png" alt="">
-                                </div>
-                                <div>
-                                    <span class="tit_2">Mi organizacion</span>
-                                    <p class="det_tit">Estamos para ayudarlo a tener exito</p>
-                                    <img class="flecha" src="img/icono-flecha.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--PopUP hast aqui -->
-
-        </nav>
-        <div class="backImg">
-            <h1 class="titulo">¡Actúa para cambiar el mundo!</h1>
-
-            <p class="tituloText">Fomentamos el vínculo entre empresas y organizaciones civiles para generar un impacto
-                positivo en la sociedad.</p>
-            <p class="tituloText">Descubrí diferentes maneras de invocar tu organización con la sociedad.</p>
-
+      <nav class="nav">
+        <div class="contenedorNavBar">
+          <img class="logo" src="img/logo.png" alt="logo" />
+          <button class="botonNav"><i class="fa-solid fa-bars"></i></button>
+          <ul class="navBar navBar_visible">
+            <li class="list"
+              ><a id="btnNosotros" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="list"
+              ><a id="btnNoticias" href="#noticias">Noticias</a></li
+            >
+            <li class="list"><a id="btnAyuda" href="#ayuda">Ayuda</a></li>
+          </ul>
         </div>
+        <div>
+          <!--class="ancla"-->
+          <!-- <a style="text-transform:uppercase" class="btn" href="#">ingresar</a> -->
+          <button class="btn_ing" id="myBtn">Ingresar</button>
+        </div>
+        <!--PopUP -->
+
+        <!-- Modal content -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <div class="left">
+              <img class="fondo" src="img/imagen-modal.JPG" alt="" />
+            </div>
+            <div class="right">
+              <div class="atras"
+                ><span>Volver atras</span> <span class="close">X</span></div
+              >
+              <div class="contenido">
+                <div> <span>Registrar</span> </div>
+                <div class="com_or">
+                  <div class="menu_1">
+                    <img class="maletin" src="img/icono-maletin.png" alt="" />
+                  </div>
+                  <div>
+                    <span class="tit_1">Mi empresa</span>
+                    <p class="det_tit"
+                      >breve explicacion a lo que nos referimos</p
+                    >
+                    <img class="flecha" src="img/icono-flecha.png" alt="" />
+                  </div>
+                </div>
+                <div class="com_or">
+                  <div class="menu_2">
+                    <img class="persona" src="img/icono-persona.png" alt="" />
+                  </div>
+                  <div>
+                    <span class="tit_2">Mi organizacion</span>
+                    <p class="det_tit">Estamos para ayudarlo a tener exito</p>
+                    <img class="flecha" src="img/icono-flecha.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--PopUP hast aqui -->
+      </nav>
+      <div class="backImg">
+        <h1 class="titulo">¡Actúa para cambiar el mundo!</h1>
+
+        <p class="tituloText"
+          >Fomentamos el vínculo entre empresas y organizaciones civiles para
+          generar un impacto positivo en la sociedad.</p
+        >
+        <p class="tituloText"
+          >Descubrí diferentes maneras de invocar tu organización con la
+          sociedad.</p
+        >
+      </div>
     </header>
     <section id="nosotros" class="news">
-        <div class="news_1">
-            <div class="container">
-                <div class="row gx-1 align-items-center reverse">
-
-                    <div class="col-md-6 d-flex justify-content-center ">
-                        <img src="img/oficina.png" alt="Imagen1" class="ing_news">
-                    </div>
-
-                    <div class="col-md-6 ">
-                        <h2 class="title">Soluciones para empresas</h2>
-                        <span>generamos un medio pa que las empresas se involucren en actividades de responsabilidad
-                            social <br>
-                            Crea un grupo de voluntarios en tu organizacion y se parte del cambio</span>
-                    </div>
-
-                </div>
+      <div class="news_1">
+        <div class="container">
+          <div class="row gx-1 align-items-center reverse">
+            <div class="col-md-6 d-flex justify-content-center">
+              <img src="img/oficina.png" alt="Imagen1" class="ing_news" />
             </div>
 
-
-            <div class="container">
-                <div class="row gx-1 align-items-center ">
-
-                    <div class="col-md-6">
-                        <h2 class="title">Soluciones para organizaciones</h2>
-                        <span>generamos un medio pa que las empresas se involucren en actividades de responsabilidad
-                            social <br>
-                            Crea un grupo de voluntarios en tu organizacion y se parte del cambio</span>
-                    </div>
-
-                    <div class="col-md-6 d-flex justify-content-center">
-                        <img src="img/voluntariado.jpg" alt="Imagen2" class="ing_news">
-                    </div>
-
-                </div>
+            <div class="col-md-6">
+              <h2 class="title">Soluciones para empresas</h2>
+              <span
+                >generamos un medio pa que las empresas se involucren en
+                actividades de responsabilidad social <br />
+                Crea un grupo de voluntarios en tu organizacion y se parte del
+                cambio</span
+              >
             </div>
-
-
-
+          </div>
         </div>
-        <div class="detail">
-            <div>
-                <h1>Encuentra las mejores oportunidades</h1>
-                <span>La plataforma cuenta con gran variedad de proyectos locales(sociales, educativos, y medio
-                    ambiente), donde encontraras el que mejor se adapte a la experienbcia que estas buscando.
-                    <br>Te ayudamos en la coordinacion con la organizacion de forma cimple y rapida</span>
 
+        <div class="container">
+          <div class="row gx-1 align-items-center">
+            <div class="col-md-6">
+              <h2 class="title">Soluciones para organizaciones</h2>
+              <span
+                >generamos un medio pa que las empresas se involucren en
+                actividades de responsabilidad social <br />
+                Crea un grupo de voluntarios en tu organizacion y se parte del
+                cambio</span
+              >
             </div>
+
+            <div class="col-md-6 d-flex justify-content-center">
+              <img src="img/voluntariado.jpg" alt="Imagen2" class="ing_news" />
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="detail">
+        <div>
+          <h1>Encuentra las mejores oportunidades</h1>
+          <span
+            >La plataforma cuenta con gran variedad de proyectos
+            locales(sociales, educativos, y medio ambiente), donde encontraras
+            el que mejor se adapte a la experienbcia que estas buscando.
+            <br />Te ayudamos en la coordinacion con la organizacion de forma
+            cimple y rapida</span
+          >
+        </div>
+      </div>
     </section>
     <div class="container1">
-
-        <div>
-            <div class="card hand">
-                <div class="card-header d-flex justify-content-end"><img class="img_mas" src="img/icono-mas.png" alt="">
-                </div>
-                <div class="card-body">
-                    <img class="img_1" src="img/icono-mano.png" alt="">
-                    <p class="text_1">Ser voluntario</p>
-
-                </div>
-            </div>
+      <div>
+        <div class="card hand">
+          <div class="card-header d-flex justify-content-end"
+            ><img class="img_mas" src="img/icono-mas.png" alt="" />
+          </div>
+          <div class="card-body">
+            <img class="img_1" src="img/icono-mano.png" alt="" />
+            <p class="text_1">Ser voluntario</p>
+          </div>
         </div>
+      </div>
 
-        <div>
-            <div class="card hand2">
-                <div class="card-header d-flex justify-content-end"><img class="img_mas" src="img/icono-mas.png" alt="">
-                </div>
-                <div class="card-body">
-                    <img class="img_1" src="img/icono-mano-corazon.png" alt="">
-                    <p class="text_1">Donar</p>
-
-                </div>
-            </div>
+      <div>
+        <div class="card hand2">
+          <div class="card-header d-flex justify-content-end"
+            ><img class="img_mas" src="img/icono-mas.png" alt="" />
+          </div>
+          <div class="card-body">
+            <img class="img_1" src="img/icono-mano-corazon.png" alt="" />
+            <p class="text_1">Donar</p>
+          </div>
         </div>
+      </div>
 
-        <div>
-            <div class="card recicly">
-                <div class="card-header d-flex justify-content-end"><img class="img_mas" src="img/icono-mas.png" alt="">
-                </div>
-                <div class="card-body">
-                    <img class="img_1" src="img/icono-reciclar.png" alt="">
-                    <p class="text_1">Reciclar</p>
-
-                </div>
-            </div>
+      <div>
+        <div class="card recicly">
+          <div class="card-header d-flex justify-content-end"
+            ><img class="img_mas" src="img/icono-mas.png" alt="" />
+          </div>
+          <div class="card-body">
+            <img class="img_1" src="img/icono-reciclar.png" alt="" />
+            <p class="text_1">Reciclar</p>
+          </div>
         </div>
+      </div>
 
-        <div>
-            <div class="card call">
-                <div class="card-header d-flex justify-content-end"><img class="img_mas" src="img/icono-mas.png" alt="">
-                </div>
-                <div class="card-body">
-                    <img class="img_1" src="img/icono-maletin.png" alt="">
-                    <p class="text_1">llamados laborales</p>
-
-                </div>
-            </div>
+      <div>
+        <div class="card call">
+          <div class="card-header d-flex justify-content-end"
+            ><img class="img_mas" src="img/icono-mas.png" alt="" />
+          </div>
+          <div class="card-body">
+            <img class="img_1" src="img/icono-maletin.png" alt="" />
+            <p class="text_1">llamados laborales</p>
+          </div>
         </div>
-
+      </div>
     </div>
 
     <!--Carrusel-->
 
     <section id="testimonials">
-        <h2 id="noticias" class="tituloNoticias">Noticias</h2>
-        <a class=" btnNoticias " href="#"> ver todas</a>
-        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-
-
-
-                    <div class="tarjetas">
-
-                        <div class="cardSec" style="width: 25rem;">
-                            <img src="img/noticia1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body_not">
-                                <div class="fecha">
-
-                                    <div>
-                                        <img src="img/icono-calendario.png" alt="">
-                                        <span>17/10/2022</span>
-
-                                    </div>
-                                    <div>
-                                        <img src="img/icono-reloj.png" alt="">
-                                        <span>4 min</span>
-                                    </div>
-                                </div>
-                                <h5 class="card-title_not">Fundappas abre nuevo centro</h5>
-                                <p class="card-text_not">Some quick example text to build on the card title and make up
-                                    the bulk of
-                                    the card's content.</p>
-                                <div class="btn_not">
-                                    <img src="img/icono-flecha.png" alt="">
-                                    <a href="#" class="btn_not">ver mas</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cardSec" style="width: 25rem;">
-                            <img src="img/noticia2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body_not">
-                                <div class="fecha">
-
-                                    <div>
-                                        <img src="img/icono-calendario.png" alt="">
-                                        <span>17/10/2022</span>
-
-                                    </div>
-                                    <div>
-                                        <img src="img/icono-reloj.png" alt="">
-                                        <span>4 min</span>
-                                    </div>
-                                </div>
-                                <h5 class="card-title_not">DIRECTV Y TECHO inauraron un nuevo espacio deportivo</h5>
-                                <p class="card-text_not">Some quick example text to build on the card title and make up
-                                    the bulk of
-                                    the card's content.</p>
-                                <div class="btn_not">
-                                    <img src="img/icono-flecha.png" alt="">
-                                    <a href="#" class="btn_not">ver mas</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cardSec" style="width: 25rem;">
-                            <img src="img/noticia3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body_not">
-                                <div class="fecha">
-
-                                    <div>
-                                        <img src="img/icono-calendario.png" alt="">
-                                        <span>17/10/2022</span>
-
-                                    </div>
-                                    <div>
-                                        <img src="img/icono-reloj.png" alt="">
-                                        <span>4 min</span>
-                                    </div>
-                                </div>
-                                <h5 class="card-title_not">Jornada de voluntarios</h5>
-                                <p class="card-text_not">Some quick example text to build on the card title and make up
-                                    the bulk of
-                                    the card's content.</p>
-                                <div class="btn_not">
-                                    <img src="img/icono-flecha.png" alt="">
-                                    <a href="#" class="btn_not">ver mas</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cardSec" style="width: 25rem;">
-                            <img src="img/noticia4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body_not">
-                                <div class="fecha">
-
-                                    <div>
-                                        <img src="img/icono-calendario.png" alt="">
-                                        <span>17/10/2022</span>
-
-                                    </div>
-                                    <div>
-                                        <img src="img/icono-reloj.png" alt="">
-                                        <span>4 min</span>
-                                    </div>
-                                </div>
-                                <h5 class="card-title_not">Lanzamiento del plan Tu Techo</h5>
-                                <p class="card-text_not">Some quick example text to build on the card title and make up
-                                    the bulk of
-                                    the card's content.</p>
-                                <div class="btn_not">
-                                    <img src="img/icono-flecha.png" alt="">
-                                    <a href="#" class="btn_not">ver mas</a>
-                                </div>
-                            </div>
-                        </div>
+      <h2 id="noticias" class="tituloNoticias">Noticias</h2>
+      <a class="btnNoticias" href="#"> ver todas</a>
+      <div
+        id="testimonial-carousel"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="tarjetas">
+              <div class="cardSec" style="width: 25rem">
+                <img src="img/noticia1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body_not">
+                  <div class="fecha">
+                    <div>
+                      <img src="img/icono-calendario.png" alt="" />
+                      <span>17/10/2022</span>
                     </div>
-                </div>
-                <div class="carousel-item">
-
-
-                    <div class="tarjetas">
-
-                        <div class="cardSec" style="width: 25rem;">
-                            <img src="img/noticia1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body_not">
-                                <div class="fecha">
-
-                                    <div>
-                                        <img src="img/icono-calendario.png" alt="">
-                                        <span>17/10/2022</span>
-
-                                    </div>
-                                    <div>
-                                        <img src="img/icono-reloj.png" alt="">
-                                        <span>4 min</span>
-                                    </div>
-                                </div>
-                                <h5 class="card-title_not">Fundappas abre nuevo centro</h5>
-                                <p class="card-text_not">Some quick example text to build on the card title and make up
-                                    the bulk of
-                                    the card's content.</p>
-                                <div class="btn_not">
-                                    <img src="img/icono-flecha.png" alt="">
-                                    <a href="#" class="btn_not">ver mas</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cardSec" style="width: 25rem;">
-                            <img src="img/noticia2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body_not">
-                                <div class="fecha">
-
-                                    <div>
-                                        <img src="img/icono-calendario.png" alt="">
-                                        <span>17/10/2022</span>
-
-                                    </div>
-                                    <div>
-                                        <img src="img/icono-reloj.png" alt="">
-                                        <span>4 min</span>
-                                    </div>
-                                </div>
-                                <h5 class="card-title_not">DIRECTV Y TECHO inauraron un nuevo espacio deportivo</h5>
-                                <p class="card-text_not">Some quick example text to build on the card title and make up
-                                    the bulk of
-                                    the card's content.</p>
-                                <div class="btn_not">
-                                    <img src="img/icono-flecha.png" alt="">
-                                    <a href="#" class="btn_not">ver mas</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cardSec" style="width: 25rem;">
-                            <img src="img/noticia3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body_not">
-                                <div class="fecha">
-
-                                    <div>
-                                        <img src="img/icono-calendario.png" alt="">
-                                        <span>17/10/2022</span>
-
-                                    </div>
-                                    <div>
-                                        <img src="img/icono-reloj.png" alt="">
-                                        <span>4 min</span>
-                                    </div>
-                                </div>
-                                <h5 class="card-title_not">Jornada de voluntarios</h5>
-                                <p class="card-text_not">Some quick example text to build on the card title and make up
-                                    the bulk of
-                                    the card's content.</p>
-                                <div class="btn_not">
-                                    <img src="img/icono-flecha.png" alt="">
-                                    <a href="#" class="btn_not">ver mas</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cardSec" style="width: 25rem;">
-                            <img src="img/noticia4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body_not">
-                                <div class="fecha">
-
-                                    <div>
-                                        <img src="img/icono-calendario.png" alt="">
-                                        <span>17/10/2022</span>
-
-                                    </div>
-                                    <div>
-                                        <img src="img/icono-reloj.png" alt="">
-                                        <span>4 min</span>
-                                    </div>
-                                </div>
-                                <h5 class="card-title_not">Lanzamiento del plan Tu Techo</h5>
-                                <p class="card-text_not">Some quick example text to build on the card title and make up
-                                    the bulk of
-                                    the card's content.</p>
-                                <div class="btn_not">
-                                    <img src="img/icono-flecha.png" alt="">
-                                    <a href="#" class="btn_not">ver mas</a>
-                                </div>
-                            </div>
-                        </div>
+                    <div>
+                      <img src="img/icono-reloj.png" alt="" />
+                      <span>4 min</span>
                     </div>
+                  </div>
+                  <h5 class="card-title_not">Fundappas abre nuevo centro</h5>
+                  <p class="card-text_not"
+                    >Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</p
+                  >
+                  <div class="btn_not">
+                    <img src="img/icono-flecha.png" alt="" />
+                    <a href="#" class="btn_not">ver mas</a>
+                  </div>
                 </div>
+              </div>
+
+              <div class="cardSec" style="width: 25rem">
+                <img src="img/noticia2.jpg" class="card-img-top" alt="..." />
+                <div class="card-body_not">
+                  <div class="fecha">
+                    <div>
+                      <img src="img/icono-calendario.png" alt="" />
+                      <span>17/10/2022</span>
+                    </div>
+                    <div>
+                      <img src="img/icono-reloj.png" alt="" />
+                      <span>4 min</span>
+                    </div>
+                  </div>
+                  <h5 class="card-title_not"
+                    >DIRECTV Y TECHO inauraron un nuevo espacio deportivo</h5
+                  >
+                  <p class="card-text_not"
+                    >Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</p
+                  >
+                  <div class="btn_not">
+                    <img src="img/icono-flecha.png" alt="" />
+                    <a href="#" class="btn_not">ver mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="cardSec" style="width: 25rem">
+                <img src="img/noticia3.jpg" class="card-img-top" alt="..." />
+                <div class="card-body_not">
+                  <div class="fecha">
+                    <div>
+                      <img src="img/icono-calendario.png" alt="" />
+                      <span>17/10/2022</span>
+                    </div>
+                    <div>
+                      <img src="img/icono-reloj.png" alt="" />
+                      <span>4 min</span>
+                    </div>
+                  </div>
+                  <h5 class="card-title_not">Jornada de voluntarios</h5>
+                  <p class="card-text_not"
+                    >Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</p
+                  >
+                  <div class="btn_not">
+                    <img src="img/icono-flecha.png" alt="" />
+                    <a href="#" class="btn_not">ver mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="cardSec" style="width: 25rem">
+                <img src="img/noticia4.jpg" class="card-img-top" alt="..." />
+                <div class="card-body_not">
+                  <div class="fecha">
+                    <div>
+                      <img src="img/icono-calendario.png" alt="" />
+                      <span>17/10/2022</span>
+                    </div>
+                    <div>
+                      <img src="img/icono-reloj.png" alt="" />
+                      <span>4 min</span>
+                    </div>
+                  </div>
+                  <h5 class="card-title_not">Lanzamiento del plan Tu Techo</h5>
+                  <p class="card-text_not"
+                    >Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</p
+                  >
+                  <div class="btn_not">
+                    <img src="img/icono-flecha.png" alt="" />
+                    <a href="#" class="btn_not">ver mas</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel"
-                data-bs-slide="prev">
-                <spam class="carousel-control-prev-icon"></spam>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel"
-                data-bs-slide="next">
-                <spam class="carousel-control-next-icon"></spam>
-            </button>
+          </div>
+          <div class="carousel-item">
+            <div class="tarjetas">
+              <div class="cardSec" style="width: 25rem">
+                <img src="img/noticia1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body_not">
+                  <div class="fecha">
+                    <div>
+                      <img src="img/icono-calendario.png" alt="" />
+                      <span>17/10/2022</span>
+                    </div>
+                    <div>
+                      <img src="img/icono-reloj.png" alt="" />
+                      <span>4 min</span>
+                    </div>
+                  </div>
+                  <h5 class="card-title_not">Fundappas abre nuevo centro</h5>
+                  <p class="card-text_not"
+                    >Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</p
+                  >
+                  <div class="btn_not">
+                    <img src="img/icono-flecha.png" alt="" />
+                    <a href="#" class="btn_not">ver mas</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cardSec" style="width: 25rem">
+                <img src="img/noticia2.jpg" class="card-img-top" alt="..." />
+                <div class="card-body_not">
+                  <div class="fecha">
+                    <div>
+                      <img src="img/icono-calendario.png" alt="" />
+                      <span>17/10/2022</span>
+                    </div>
+                    <div>
+                      <img src="img/icono-reloj.png" alt="" />
+                      <span>4 min</span>
+                    </div>
+                  </div>
+                  <h5 class="card-title_not"
+                    >DIRECTV Y TECHO inauraron un nuevo espacio deportivo</h5
+                  >
+                  <p class="card-text_not"
+                    >Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</p
+                  >
+                  <div class="btn_not">
+                    <img src="img/icono-flecha.png" alt="" />
+                    <a href="#" class="btn_not">ver mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="cardSec" style="width: 25rem">
+                <img src="img/noticia3.jpg" class="card-img-top" alt="..." />
+                <div class="card-body_not">
+                  <div class="fecha">
+                    <div>
+                      <img src="img/icono-calendario.png" alt="" />
+                      <span>17/10/2022</span>
+                    </div>
+                    <div>
+                      <img src="img/icono-reloj.png" alt="" />
+                      <span>4 min</span>
+                    </div>
+                  </div>
+                  <h5 class="card-title_not">Jornada de voluntarios</h5>
+                  <p class="card-text_not"
+                    >Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</p
+                  >
+                  <div class="btn_not">
+                    <img src="img/icono-flecha.png" alt="" />
+                    <a href="#" class="btn_not">ver mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="cardSec" style="width: 25rem">
+                <img src="img/noticia4.jpg" class="card-img-top" alt="..." />
+                <div class="card-body_not">
+                  <div class="fecha">
+                    <div>
+                      <img src="img/icono-calendario.png" alt="" />
+                      <span>17/10/2022</span>
+                    </div>
+                    <div>
+                      <img src="img/icono-reloj.png" alt="" />
+                      <span>4 min</span>
+                    </div>
+                  </div>
+                  <h5 class="card-title_not">Lanzamiento del plan Tu Techo</h5>
+                  <p class="card-text_not"
+                    >Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</p
+                  >
+                  <div class="btn_not">
+                    <img src="img/icono-flecha.png" alt="" />
+                    <a href="#" class="btn_not">ver mas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="prev"
+        >
+          <spam class="carousel-control-prev-icon"></spam>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="next"
+        >
+          <spam class="carousel-control-next-icon"></spam>
+        </button>
+      </div>
     </section>
-
-
-
 
     <!--Hasta Aqui-->
 
-
-
-
     <section id="ayuda" class="secForm">
-        <img class="imgForm" src="img/laptop-escritorio.jpg" alt="">
-        <div class="containerForm">
+      <img class="imgForm" src="img/laptop-escritorio.jpg" alt="" />
+      <div class="containerForm">
+        <h2 style="font-size: 30px; font-weight: bold">Contacto</h2>
+        <form
+          id="my-form"
+          class="formulario"
+          action="https://formspree.io/f/mrgdaqgk"
+          method="POST"
+        >
+          <div class="contCampo">
+            <label class="texto">Nombre</label>
+            <input
+              required
+              name="name"
+              class="border"
+              type="text"
+              placeholder="Nombre"
+            />
 
-            <h2 style="font-size: 30px; font-weight: bold;">Contacto</h2>
-            <form id="my-form" class="formulario" action="https://formspree.io/f/mrgdaqgk" method="POST">
-                <div class="contCampo">
+            <label class="texto">Correo</label>
+            <input
+              required
+              name="email"
+              class="border"
+              type="email"
+              placeholder="Email"
+            />
+          </div>
 
-                    <label class="texto">Nombre</label>
-                    <input required name="name" class="border" type="text" placeholder="Nombre">
+          <div class="mensaje">
+            <label class="texto" for="">Mensaje</label>
+            <textarea
+              class="border"
+              name="message"
+              cols="20"
+              rows="10"
+            ></textarea>
+          </div>
 
-
-                    <label class="texto">Correo</label>
-                    <input required name="email" class="border
-                    " type="email" placeholder="Email">
-
-                </div>
-
-                <div class="mensaje">
-                    <label class="texto" for="">Mensaje</label>
-                    <textarea class="border" name="message" cols="20" rows="10"></textarea>
-                </div>
-
-
-
-
-                <input class="enviar" id="my-form-button" type="submit" name="Enviar" value="Enviar">
-                <p id="my-form-status"></p>
-
-            </form>
-
-        </div>
+          <input
+            class="enviar"
+            id="my-form-button"
+            type="submit"
+            name="Enviar"
+            value="Enviar"
+          />
+          <p id="my-form-status"></p>
+        </form>
+      </div>
     </section>
     <footer>
-        <div class="containerFooter">
-            <div class="row ">
+      <div class="containerFooter">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex justify-content-start">
+            <img class="img2" src="img/logo-blanco.png" alt="logo" />
+          </div>
 
-                <div class="col-lg-3 col-md-6 d-flex justify-content-start">
-                    <img class='img2' src="img/logo-blanco.png" alt="logo">
-                </div>
+          <div class="col-lg-3 col-md-6 d-flex">
+            <ul>
+              <li><a href="#nosotros">Nosotros</a></li>
+              <li><a href="#noticias">Noticias</a></li>
+              <li><a href="#ayuda">Contacto</a></li>
+              <li><a href="#">Terminos y condiciones</a></li>
+            </ul>
+          </div>
 
-                <div class="col-lg-3 col-md-6 d-flex ">
-                    <ul>
-                        <li><a href="#nosotros">Nosotros</a></li>
-                        <li><a href="#noticias">Noticias</a></li>
-                        <li><a href="#ayuda">Contacto</a></li>
-                        <li><a href="#">Terminos y condiciones</a></li>
-                    </ul>
-                </div>
+          <div class="col-lg-3 col-md-6"> </div>
 
-                <div class="col-lg-3 col-md-6">
-
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div><span>Contactanos</span></div>
-                    <div>
-                        <i class="social-icon fab fa-facebook-f"></i>
-                        <i class="social-icon fab fa-twitter"></i>
-                        <i class="social-icon fab fa-instagram"></i>
-                        <i class="social-icon fas fa-envelope"></i>
-                    </div>
-                </div>
-
+          <div class="col-lg-3 col-md-6">
+            <div><span>Contactanos</span></div>
+            <div>
+              <i class="social-icon fab fa-facebook-f"></i>
+              <i class="social-icon fab fa-twitter"></i>
+              <i class="social-icon fab fa-instagram"></i>
+              <i class="social-icon fas fa-envelope"></i>
             </div>
-            <hr>
+          </div>
         </div>
+        <hr />
+      </div>
     </footer>
 
-    <script src="https://kit.fontawesome.com/196f6b865a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/196f6b865a.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="javascript/index.js"></script>
-
-</body>
-
+  </body>
 </html>
